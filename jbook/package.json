@@ -1,6 +1,5 @@
 {
     "name": "root",
-    "private": true,
     "scripts": {
         "start": "lerna run start --parallel"
     },
