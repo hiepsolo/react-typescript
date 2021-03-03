@@ -1,11 +1,15 @@
 {
-    "name": "local-api",
+    "name": "@jsnote8x/local-api",
     "version": "1.0.0",
     "description": "",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
+    "files":[
+        "dist"
+    ],
     "scripts": {
-        "start": "tsc --watch --preserveWatchOutput"
+        "start": "tsc --watch --preserveWatchOutput",
+        "prepublishOnly": "tsc"
     },
     "keywords": [],
     "author": "",
@@ -19,6 +23,6 @@
         "cors": "^2.8.5",
         "express": "^4.17.1",
         "http-proxy-middleware": "^1.0.6",
-        "local-client": "^0.1.0"
+        "@jsnote8x/local-client": "^0.1.0"
     }
 }
