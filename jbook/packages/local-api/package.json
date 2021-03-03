@@ -4,6 +4,9 @@
     "description": "",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
+    "publishConfig": {
+        "access": "public"
+    },
     "files": [
         "dist"
     ],
@@ -25,5 +28,5 @@
         "express": "^4.17.1",
         "http-proxy-middleware": "^1.0.6"
     },
-    "gitHead": "d92006520fb25e8b9508c756de4dd0a50df9d0bf"
+    "gitHead": "71cc3385b303a14f9aa8bd06cb134e053ba6c07f"
 }
