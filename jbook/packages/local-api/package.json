@@ -4,7 +4,7 @@
     "description": "",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
-    "files":[
+    "files": [
         "dist"
     ],
     "scripts": {
@@ -20,9 +20,9 @@
         "typescript": "^4.2.2"
     },
     "dependencies": {
+        "@jsnote8x/local-client": "^1.0.0",
         "cors": "^2.8.5",
         "express": "^4.17.1",
-        "http-proxy-middleware": "^1.0.6",
-        "@jsnote8x/local-client": "^0.1.0"
+        "http-proxy-middleware": "^1.0.6"
     }
 }

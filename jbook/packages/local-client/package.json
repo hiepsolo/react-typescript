@@ -1,13 +1,11 @@
 {
     "name": "@jsnote8x/local-client",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "files": [
         "build"
     ],
     "publishConfig": {
         "access": "public"
-    },
-    "dependencies": {
     },
     "devDependencies": {
         "@fortawesome/fontawesome-free": "^5.15.2",
@@ -18,6 +16,7 @@
         "@types/jest": "^26.0.15",
         "@types/jscodeshift": "0.7.2",
         "@types/node": "^12.0.0",
+        "@types/prettier": "^2.2.1",
         "@types/react": "^17.0.0",
         "@types/react-dom": "^17.0.0",
         "@types/react-redux": "7.1.15",
@@ -30,6 +29,7 @@
         "jscodeshift": "0.11.0",
         "localforage": "^1.9.0",
         "monaco-jsx-highlighter": "0.0.15",
+        "prettier": "^2.2.1",
         "react": "^17.0.1",
         "react-dom": "^17.0.1",
         "react-redux": "7.2.2",
@@ -38,9 +38,7 @@
         "redux": "4.0.5",
         "redux-thunk": "2.3.0",
         "typescript": "^4.1.2",
-        "web-vitals": "^1.0.1",
-        "@types/prettier": "^2.2.1",
-        "prettier": "^2.2.1"
+        "web-vitals": "^1.0.1"
     },
     "scripts": {
         "start": "react-scripts start",
